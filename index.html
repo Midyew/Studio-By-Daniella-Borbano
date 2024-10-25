@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio By Daniella Burbano</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS externo -->
+</head>
+<body>
+    <header>
+        <h1>Studio By Daniella Burbano</h1>
+        <nav>
+            <ul>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#cuestionarios">Cuestionarios</a></li>
+                <li><a href="#contacto">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="bienvenida">
+            <h2>Bienvenida</h2>
+            <p>Descubre nuestros servicios diseñados para resaltar tu belleza natural.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <div class="servicio">
+                <h3>Pestañas Pelo a Pelo</h3>
+                <img src="https://tinyurl.com/5e9meh5s" alt="Pestañas Pelo a Pelo" style="width:300px;">
+                <p>Servicio personalizado para un look natural.</p>
+            </div>
+            <div class="servicio">
+                <h3>Diseño de Cejas</h3>
+                <img src="https://tinyurl.com/36ftv936" alt="Diseño de Cejas" style="width:300px;">
+                <p>Definición y forma perfectas para tus cejas.</p>
+            </div>
+            <div class="servicio">
+                <h3>Laminado de Cejas</h3>
+                <img src="https://tinyurl.com/mryyjj5v" alt="Laminado de Cejas" style="width:300px;">
+                <p>Técnica para mantener tus cejas en su lugar.</p>
+            </div>
+            <div class="servicio">
+                <h3>Lifting de Pestañas</h3>
+                <img src="https://tinyurl.com/mve3rjvb" alt="Lifting de Pestañas" style="width:300px;">
+                <p>Rizado y volumen duradero para tus pestañas.</p>
+            </div>
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiencia del Usuario</h2>
+            <p>Cuestionario de Satisfacción</p>
+            <p>Por favor, completa el cuestionario en el siguiente enlace: 
+            <a href="https://forms.gle/LS3dvEGx3J2GT74R7" target="_blank">Acceder al Cuestionario</a>.</p>
+            <form>
+                <label for="satisfaccion">Satisfacción General (1-5):</label>
+                <input type="number" id="satisfaccion" min="1" max="5" required>
+                <label for="comentarios">Comentarios Adicionales:</label>
+                <textarea id="comentarios"></textarea>
+                <button type="submit">Enviar Respuesta</button>
+            </form>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Studio By Daniella Burbano. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
